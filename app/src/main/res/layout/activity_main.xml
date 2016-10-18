@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="mx.carpediemsoft.mismapas.MainActivity"
+    android:orientation="vertical"
+    >
+
+
+
+    <TextView
+        android:id="@+id/tvtexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A DONDE DESEAS IR?"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="60dp"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/icono"
+            android:layout_height="@dimen/icono"
+            android:id="@+id/chapultepec"
+            android:src="@drawable/zoo"
+            android:text="@string/ir_chapultepec"
+            android:onClick="irChapul"
+            />
+
+
+
+        <ImageView
+            android:layout_width="@dimen/icono"
+            android:layout_height="@dimen/icono"
+            android:id="@+id/angel"
+            android:text="@string/ir_angel"
+            android:src="@drawable/angel"
+            android:onClick="irAngel"
+            />
+    </LinearLayout>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chapultepec"
+        android:paddingLeft="85dp"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Angel de la Ind."
+        android:paddingLeft="185dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        />
+
+</RelativeLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="60dp"
+        android:gravity="center">
+
+
+        <ImageView
+            android:layout_width="@dimen/icono"
+            android:layout_height="@dimen/icono"
+            android:id="@+id/sanjuan"
+            android:src="@drawable/zoo2"
+            android:text="@string/ir_sanjuan"
+            android:onClick="irSanJuan"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/icono"
+            android:layout_height="@dimen/icono"
+            android:id="@+id/azteca"
+            android:text="@string/ir_azteca"
+            android:src="@drawable/stadium"
+            android:onClick="irAzteca"
+            />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="San Juan Argn."
+            android:paddingLeft="75dp"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E. Azteca"
+            android:paddingLeft="210dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

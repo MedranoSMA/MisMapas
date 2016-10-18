@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GOOGLE MAPS</string>
+    <string name="ir_chapultepec">CHAPULTEPEC</string>
+    <string name="ir_sanjuan">ZOLOGICO</string>
+    <string name="ir_azteca">ESTADIO AZTECAC</string>
+    <string name="ir_angel">ANGEL DE LA INDEPENDENCIA</string>
+    <string name="title_activity_maps">Mapa de tu destino</string>
+    <string name="title_activity_maps1">Map1</string>
+    <string name="title_activity_maps3">Map3</string>
+    <string name="title_activity_maps2">Map2</string>
+</resources>
